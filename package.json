@@ -1,0 +1,31 @@
+{
+  "name": "StudyMate",
+  "version": "1.0.0",
+  "description": "Studying Online together using WebRTC and Websockets",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/node": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "@socket.io/admin-ui": "^0.4.0",
+    "bootstrap": "^5.2.0-beta1",
+    "bootstrap-icons": "^1.9.1",
+    "cloudflare": "^2.9.1",
+    "express": "^4.18.1",
+    "localtunnel": "^2.0.2",
+    "pug": "^3.0.2",
+    "socket.io": "^4.5.1",
+    "ws": "^8.8.0"
+  }
+}

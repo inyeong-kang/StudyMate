@@ -1,0 +1,122 @@
+#myStream {
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows:repeat(3, 1fr);
+    height:100%;
+    gap:5px;
+    background-color:gainsboro;
+    border:5px solid gray;
+    border-top:0;
+}
+
+#myStream h2, h6{
+    padding-bottom: 14px;
+}
+
+#caution {
+    color: gray;
+    font-size: 7px;
+    padding-bottom: 10px;
+
+}
+.post {
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.btn-group svg{
+    padding-left: 5px;
+}
+
+.post .row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px;
+    font-size:18px;
+}
+
+.post video {
+    width:80%;
+    margin:0 auto;
+}
+
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+  
+#chatList{
+    background: #b2c7d9;
+    flex: 12;
+    overflow-y: scroll;
+}
+
+.input-container {
+    flex: 1;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    padding: 3px;
+  }
+  
+.input-container form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.3rem;
+    width: 100%;
+    height: 100%;
+    border: 1px solid gainsboro;
+}
+
+.input-container input {
+    font-size: 12px;
+    height: 100%;
+    flex: 8;
+    border: none;
+}
+
+.input-container button{
+    flex: 1;
+    background: #ffeb33;
+    border: none;
+    height: 100%;
+    border-radius: 3px;
+}
+
+#chatList li {
+    width: 90%;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 0.5rem;
+}
+
+.message {
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 12px;
+    margin: 0 5px;
+    flex: 7;
+}
+
+.sent {
+    flex-direction: row-reverse;
+    float: right;
+}
+
+.sent .message {
+    background: #ffeb33;
+}
+  
+.received .message {
+    background: skyblue;
+}
